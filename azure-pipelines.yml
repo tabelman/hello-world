@@ -1,4 +1,9 @@
 # Starter pipeline
+- task: katalonTask@0
+- task: katalonTask@0
+  inputs:
+    location: 'C:\Users\ieabelma\Downloads\Katalon_Studio_Windows_64-6.2.0 (1)\Katalon_Studio_Windows_64-6.2.0\katalon.exe'
+  inputs:
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
